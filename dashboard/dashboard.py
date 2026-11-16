@@ -245,4 +245,4 @@ with i3:
     </div>
     """, unsafe_allow_html=True)
 
-st.caption("Copyright © 2026 Grace Vies Angel")
+st.markdown('<p style="color: #17365D; font-size: 13px; margin-top: 25px;">Copyright © 2026 Grace Vies Angel</p>', unsafe_allow_html=True)
