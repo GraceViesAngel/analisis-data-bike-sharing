@@ -21,9 +21,16 @@ st.markdown("""
         border-radius: 10px;
         border: 1px solid #D6E8F5;
     }
-    h1, h2, h3, h4, p, span, label { color: #17365D !important; }
+    h1, h2, h3, h4 { color: #17365D !important; }
     [data-testid="stMetricValue"] { color: #17365D !important; font-weight: 700; }
     [data-testid="stMetricLabel"] { color: #1F4E78 !important; }
+    .stAlert {
+        background-color: #FFFFFF !important;
+        border: 1px solid #D6E8F5 !important;
+    }
+    .stAlert p {
+        color: #17365D !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
