@@ -13,7 +13,7 @@ sns.set_theme(style="whitegrid")
 
 st.markdown("""
 <style>
-    .stApp { background-color: #F4F9FD; color: #17365D; }
+    .stApp { background-color: #F4F9FD; }
     [data-testid="stSidebar"] { background-color: #E3F1FA; }
     [data-testid="stMetric"] {
         background-color: #FFFFFF;
@@ -21,7 +21,7 @@ st.markdown("""
         border-radius: 10px;
         border: 1px solid #D6E8F5;
     }
-    h1, h2, h3, h4, h5, h6, span, p, label, .stMarkdown { color: #17365D !important; }
+    h1, h2, h3, h4, h5, h6 { color: #17365D !important; }
     [data-testid="stMetricValue"] { color: #17365D !important; font-weight: 700; }
     [data-testid="stMetricLabel"] { color: #1F4E78 !important; }
 </style>
